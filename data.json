@@ -1,0 +1,58 @@
+{
+  "stats": {
+    "books_count": 10,
+    "available_count": 7,
+    "readers_count": 3,
+    "rentals_count": 5,
+    "top_authors": [
+      {"name": "Л.Н. Толстой", "cnt": 2},
+      {"name": "Ф.М. Достоевский", "cnt": 2},
+      {"name": "М.А. Булгаков", "cnt": 2},
+      {"name": "А.С. Пушкин", "cnt": 1},
+      {"name": "А.П. Чехов", "cnt": 2}
+    ],
+    "top_genres": [
+      {"name": "Роман", "cnt": 4},
+      {"name": "Фантастика", "cnt": 2},
+      {"name": "Поэзия", "cnt": 2},
+      {"name": "Драма", "cnt": 1},
+      {"name": "Повесть", "cnt": 1}
+    ],
+    "top_readers": [
+      {"name": "Иванов И.И.", "cnt": 3},
+      {"name": "Петров П.П.", "cnt": 2}
+    ]
+  },
+  "books": [
+    {"id": 1, "title": "Евгений Онегин", "author": "А.С. Пушкин", "genre": "Поэзия", "year": 1833, "available": true},
+    {"id": 2, "title": "Преступление и наказание", "author": "Ф.М. Достоевский", "genre": "Роман", "year": 1866, "available": true},
+    {"id": 3, "title": "Война и мир", "author": "Л.Н. Толстой", "genre": "Роман", "year": 1869, "available": false},
+    {"id": 4, "title": "Мастер и Маргарита", "author": "М.А. Булгаков", "genre": "Фантастика", "year": 1967, "available": true},
+    {"id": 5, "title": "Вишнёвый сад", "author": "А.П. Чехов", "genre": "Драма", "year": 1904, "available": true},
+    {"id": 6, "title": "Анна Каренина", "author": "Л.Н. Толстой", "genre": "Роман", "year": 1877, "available": true},
+    {"id": 7, "title": "Идиот", "author": "Ф.М. Достоевский", "genre": "Роман", "year": 1869, "available": false},
+    {"id": 8, "title": "Собачье сердце", "author": "М.А. Булгаков", "genre": "Фантастика", "year": 1925, "available": true},
+    {"id": 9, "title": "Дама с собачкой", "author": "А.П. Чехов", "genre": "Повесть", "year": 1899, "available": true},
+    {"id": 10, "title": "Москва — Петушки", "author": "С.А. Есенин", "genre": "Поэзия", "year": 1970, "available": true}
+  ],
+  "authors": [
+    {"id": 1, "name": "А.С. Пушкин", "books_count": 1},
+    {"id": 2, "name": "Ф.М. Достоевский", "books_count": 2},
+    {"id": 3, "name": "Л.Н. Толстой", "books_count": 2},
+    {"id": 4, "name": "М.А. Булгаков", "books_count": 2},
+    {"id": 5, "name": "А.П. Чехов", "books_count": 2},
+    {"id": 6, "name": "С.А. Есенин", "books_count": 1}
+  ],
+  "genres": [
+    {"id": 1, "name": "Роман", "books_count": 4},
+    {"id": 2, "name": "Поэзия", "books_count": 2},
+    {"id": 3, "name": "Детектив", "books_count": 0},
+    {"id": 4, "name": "Фантастика", "books_count": 2},
+    {"id": 5, "name": "Драма", "books_count": 1},
+    {"id": 6, "name": "Повесть", "books_count": 1}
+  ],
+  "readers": [
+    {"id": 1, "name": "Иванов И.И.", "ticket": "Б-001", "user_id": 123456789, "rentals_count": 3},
+    {"id": 2, "name": "Петров П.П.", "ticket": "Б-002", "user_id": 987654321, "rentals_count": 2}
+  ]
+}
